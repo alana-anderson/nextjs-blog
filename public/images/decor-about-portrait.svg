@@ -1,0 +1,18 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutGradient" x1="38" y1="38" x2="190" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#52F1C4"/>
+      <stop offset="1" stop-color="#7C86FF"/>
+    </linearGradient>
+  </defs>
+  <circle cx="110" cy="110" r="102" fill="url(#aboutGradient)"/>
+  <circle cx="110" cy="110" r="96" stroke="#101827" stroke-width="4" opacity="0.1"/>
+  <path d="M79 100C79 79.9086 95.9086 63 116 63C136.091 63 153 79.9086 153 100V118C153 143.376 132.376 164 107 164H98C86.9543 164 78 155.046 78 144V129" stroke="#101827" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M86 122C101 128 133 128 148 122" stroke="#101827" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M92 96C96 96 99 93 99 89C99 84.5817 95.4183 81 91 81C86.5817 81 83 84.5817 83 89" stroke="#101827" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M138 96C142 96 145 93 145 89C145 84.5817 141.418 81 137 81C132.582 81 129 84.5817 129 89" stroke="#101827" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M109 140C117.284 140 124 133.284 124 125C124 116.716 117.284 110 109 110C100.716 110 94 116.716 94 125C94 133.284 100.716 140 109 140Z" stroke="#101827" stroke-width="6" opacity="0.6"/>
+  <path d="M120 70C123 65 130 61 137 62" stroke="#101827" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M100 70C97 65 90 61 83 62" stroke="#101827" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+</svg>
+
