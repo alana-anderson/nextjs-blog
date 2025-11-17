@@ -89,13 +89,6 @@ export function About() {
           <div className="relative mt-12 flex w-full justify-center lg:mt-0">
             <div className="relative w-[180px] pt-[180px] sm:w-[200px] sm:pt-[200px] lg:w-[220px] lg:pt-[220px]">
               <Image
-                src="/images/decor-code-brackets.svg"
-                alt=""
-                width={36}
-                height={29}
-                className="pointer-events-none absolute -left-16 bottom-4 hidden lg:block"
-              />
-              <Image
                 src="/images/mepic.svg"
                 alt="Alana Anderson illustration"
                 width={220}
