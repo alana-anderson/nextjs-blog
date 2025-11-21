@@ -31,42 +31,47 @@ export function Hero({ onFrameworkClick, showScrollIndicator }: HeroProps) {
         <Navigation onFrameworkClick={onFrameworkClick} />
       </div>
 
-      <Image
-        src="/images/scribble-heart.svg"
-        alt=""
-        width={280}
-        height={200}
-        priority
-        className="pointer-events-none absolute top-[13%] left-[46%] hidden -translate-x-1/2 opacity-80 lg:block"
-      />
-      <Image
-        src="/images/nice.svg"
-        alt=""
-        width={200}
-        height={200}
-        className="pointer-events-none absolute top-[16%] right-[18%] hidden rotate-[8deg] opacity-80 lg:block"
-      />
-      <Image
-        src="/images/beaker.svg"
-        alt=""
-        width={200}
-        height={200}
-        className="pointer-events-none absolute top-[18%] left-12 hidden -rotate-[6deg] opacity-80 md:block"
-      />
-      <Image
-        src="/images/skull.svg"
-        alt=""
-        width={140}
-        height={140}
-        className="pointer-events-none absolute bottom-36 left-1/3 hidden opacity-70 lg:block"
-      />
-      <Image
-        src="/images/controller.svg"
-        alt=""
-        width={160}
-        height={160}
-        className="pointer-events-none absolute bottom-16 right-10 hidden opacity-80 lg:block"
-      />
+      <div className="hero-decor hero-decor--heart">
+        <Image
+          src="/images/scribble-heart.svg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+        />
+      </div>
+      <div className="hero-decor hero-decor--nice">
+        <Image
+          src="/images/nice.svg"
+          alt=""
+          fill
+          sizes="100vw"
+        />
+      </div>
+      <div className="hero-decor hero-decor--beaker">
+        <Image
+          src="/images/beaker.svg"
+          alt=""
+          fill
+          sizes="100vw"
+        />
+      </div>
+      <div className="hero-decor hero-decor--skull">
+        <Image
+          src="/images/skull.svg"
+          alt=""
+          fill
+          sizes="100vw"
+        />
+      </div>
+      <div className="hero-decor hero-decor--controller">
+        <Image
+          src="/images/controller.svg"
+          alt=""
+          fill
+          sizes="100vw"
+        />
+      </div>
 
       <div className="mx-auto flex w-full max-w-[var(--max-width-container)] flex-col items-center justify-center gap-10 text-center">
         <div className="relative flex flex-col items-center gap-6 lg:gap-8">
@@ -105,13 +110,14 @@ export function Hero({ onFrameworkClick, showScrollIndicator }: HeroProps) {
         </div>
       </div>
 
-      <Image
-        src="/images/horizontal-rule.svg"
-        alt=""
-        width={1200}
-        height={80}
-        className="pointer-events-none absolute bottom-0 left-1/2 hidden w-[80%] -translate-x-1/2 lg:block"
-      />
+      <div className="hero-divider">
+        <Image
+          src="/images/horizontal-rule.svg"
+          alt=""
+          fill
+          sizes="100vw"
+        />
+      </div>
 
       {showScrollIndicator ? (
         <motion.div

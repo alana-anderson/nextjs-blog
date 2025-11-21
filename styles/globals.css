@@ -113,3 +113,98 @@ button {
   font-optical-sizing: auto;
 }
 
+.hero-decor {
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  opacity: 0.75;
+  isolation: isolate;
+}
+
+.hero-decor--heart {
+  top: clamp(40px, 12vh, 220px);
+  left: 46%;
+  transform: translateX(-50%);
+  width: clamp(160px, 24vw, 320px);
+  aspect-ratio: 4 / 3;
+}
+
+.hero-decor--nice {
+  top: clamp(60px, 16vh, 260px);
+  right: clamp(24px, 18vw, 360px);
+  width: clamp(110px, 14vw, 220px);
+  aspect-ratio: 1;
+  transform: rotate(6deg);
+}
+
+.hero-decor--beaker {
+  width: clamp(140px, 15vw, 240px);
+  aspect-ratio: 1;
+  top: clamp(180px, 28vh, 360px);
+  left: clamp(20px, 12vw, 260px);
+  transform: rotate(-6deg);
+}
+
+.hero-decor--skull {
+  width: clamp(110px, 10vw, 160px);
+  aspect-ratio: 1;
+  bottom: clamp(32px, 10vh, 180px);
+  left: clamp(40px, 33vw, 480px);
+}
+
+.hero-decor--controller {
+  width: clamp(120px, 13vw, 200px);
+  aspect-ratio: 1;
+  bottom: clamp(40px, 10vh, 180px);
+  right: clamp(28px, 10vw, 220px);
+}
+
+@media (max-width: 639px) {
+  .hero-decor--heart {
+    top: clamp(40px, 16vh, 160px);
+    width: clamp(130px, 48vw, 220px);
+  }
+
+  .hero-decor--nice {
+    top: clamp(70px, 20vh, 200px);
+    right: clamp(16px, 12vw, 120px);
+    width: clamp(90px, 26vw, 140px);
+  }
+
+  .hero-decor--beaker {
+    top: auto;
+    bottom: clamp(60px, 22vh, 220px);
+    left: clamp(24px, 12vw, 120px);
+    transform: rotate(-4deg);
+  }
+
+  .hero-decor--skull {
+    left: clamp(24px, 30vw, 220px);
+  }
+
+  .hero-decor--controller {
+    right: clamp(20px, 16vw, 140px);
+  }
+}
+
+.hero-divider {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: clamp(80vw, 90vw, 110vw);
+  opacity: 0.7;
+}
+
+.hero-divider img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero-decor img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
